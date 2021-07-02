@@ -1,1 +1,5 @@
 /* Jun have fun */
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
