@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const jwt = require('jsonwebtoken')
 const UserModel = require('../models/user.model')
 
