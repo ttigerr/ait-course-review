@@ -4,10 +4,8 @@ This project is a School project for AIT.
 
 ## For Jun and Juan
 
-This is the command line to push your update here:
+Follow this link to have more information to work collaboratively on GitHub: https://uoftcoders.github.io/studyGroup/lessons/git/collaboration/lesson/
 
-git remote add origin https://github.com/spikeganush/ait-course-review.git
+Link of this GitHub: https://github.com/spikeganush/ait-course-review.git
 
-git branch -M main
 
-git push -u origin main
