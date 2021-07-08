@@ -11,12 +11,13 @@ import Course from '../../pages/Course'
 import News from '../../pages/News'
 import AboutUs from '../../pages/AboutUs'
 import Contact from '../../pages/Contact'
-import NavBar from '../NavBar'
+import Header from '../Header'
+import Search from '../../pages/Search'
 
 const index = () => {
   return (
     <Router>
-      <NavBar />
+      <Header />
 
       <Switch>
         <Route path='/' exact component={Home} />
@@ -25,6 +26,7 @@ const index = () => {
         <Route path='/news' exact component={News} />
         <Route path='/aboutUs' exact component={AboutUs} />
         <Route path='/contact' exact component={Contact} />
+        <Route path='/search' exact component={Search} />
         <Redirect to='/' />
       </Switch>
     </Router>
